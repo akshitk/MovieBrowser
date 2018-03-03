@@ -1,0 +1,18 @@
+{
+    "basic_settings": {
+        "base_url":"https://api.themoviedb.org/3",
+        "image_base_url":"https://image.tmdb.org/t/p/w500",
+        "headers": {
+            "Content-Type": "application/json",
+            "Device-OS": "iOS",
+        },
+        "request_timeout": 20.0,
+        "api_key": "72e5ad1b097b426d2246234acf07d87c",
+    },
+    "endpoints": [{
+                    "name": "get-popular-movie",
+                  "uri": "/movie/popular/",
+                    "method": "GET",
+                    "status": true
+                  }]
+}
